@@ -1,28 +1,5 @@
-== README
+西脇.rb ＆ 東灘.rb 合同もくもく会 6th用アプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Twitterのタイムラインに投稿できるアプリにTurnipを作る予定でしたが
+Twitterのトラブル(！？)により新規アカウントを作成できなかったので
+Devise認証のアプリを使うことにしました。
