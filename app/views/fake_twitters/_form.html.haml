@@ -1,0 +1,8 @@
+= form_for @fake_twitter, :html => { :class => 'form-horizontal' } do |f|
+  .control-group
+    = f.label :tweet, :class => 'control-label'
+    .controls
+      = f.text_field :tweet, :class => 'text_field'
+  .form-actions
+    = f.submit nil, :class => 'btn btn-primary'
+    = link_to t('.cancel', :default => t("helpers.links.cancel")), fake_twitters_path, :class => 'btn'
