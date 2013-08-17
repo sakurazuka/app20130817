@@ -19,7 +19,7 @@ require 'spec_helper'
 # that an instance is receiving a specific message.
 
 describe FakeTwittersController do
-
+=begin
   # This should return the minimal set of attributes required to create a valid
   # FakeTwitter. As you add validations to FakeTwitter, be sure to
   # adjust the attributes here as well.
@@ -156,5 +156,5 @@ describe FakeTwittersController do
       response.should redirect_to(fake_twitters_url)
     end
   end
-
+=end
 end
