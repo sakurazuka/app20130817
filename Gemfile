@@ -52,6 +52,9 @@ gem "devise", "~> 3.0.2"
 
 group :development, :test do
   gem "turnip", "~> 1.1.0"
+  gem "turnip_formatter", "~> 0.2.4"
+  gem "capybara", "~> 2.1.0"
+  gem "capybara-webkit", "~> 1.0.0"
   gem "rspec-rails", "~> 2.14.0"
   gem "factory_girl_rails", "~> 4.2.1"
   gem "guard-rspec", "~> 3.0.2"
