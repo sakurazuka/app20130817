@@ -26,31 +26,27 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.brand(href="#") App20130817
+          %a.brand(href="/") App20130817
           .container.nav-collapse
             %ul.nav
-              %li= link_to "Link 1", "/path1"
-              %li= link_to "Link 2", "/path2"
-              %li= link_to "Link 3", "/path3"
+              %li= link_to "Link 1", fake_twitters_path
+              %li= link_to "Link 2", new_fake_twitter_path
+              %li= link_to "Link 3", "#"
 
-    .container
+    .container{:style => "margin-top: 60px;"}
 
       .row
         .span9
           = bootstrap_flash
-          = if notice
-            %p.alert.alert-success= notice
-          = if alert
-            %p.alert.alert-block= alert
           = yield
         .span3
           .well.sidebar-nav
             %h3 Sidebar
             %ul.nav.nav-list
               %li.nav-header Sidebar
-              %li= link_to "Link 1", "/path1"
-              %li= link_to "Link 2", "/path2"
-              %li= link_to "Link 3", "/path3"
+              %li= link_to "Link 1", fake_twitters_path
+              %li= link_to "Link 2", new_fake_twitter_path
+              %li= link_to "Link 3", "#"
     
       %footer
         %p &copy; Company 2013
