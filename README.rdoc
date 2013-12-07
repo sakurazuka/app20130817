@@ -1,3 +1,5 @@
+{<img src="https://travis-ci.org/sakurazuka/app20130817.png?branch=master" alt="Build Status" />}[https://travis-ci.org/sakurazuka/app20130817]
+
 西脇.rb ＆ 東灘.rb 合同もくもく会 6th用アプリケーション
 
 Twitterのタイムラインに投稿できるアプリにTurnipを作る予定でしたが
